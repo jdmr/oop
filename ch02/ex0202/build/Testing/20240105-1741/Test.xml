@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240105-1741-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="jdmr.local"
+	OSRelease="14.1.2"
+	OSVersion="23B92"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="10"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="32768"
+	LogicalProcessorsPerPhysical="10"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jan 05 11:41 CST</StartDateTime>
+		<StartTestTime>1704476490</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 05 11:41 CST</EndDateTime>
+		<EndTestTime>1704476490</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

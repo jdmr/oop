@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o CMakeFiles/ex0201.dir/ex0201.cpp.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/ex0201.cpp",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/ex0201.cpp",
+  "output": "CMakeFiles/ex0201.dir/ex0201.cpp.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -I/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/include -I/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/include -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1  -DGTEST_HAS_PTHREAD=1   -o googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/src/gmock-all.cc",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/include -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/include -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1  -DGTEST_HAS_PTHREAD=1   -o googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/src/gmock_main.cc",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -I/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/include -I/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1  -DGTEST_HAS_PTHREAD=1   -o googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/src/gtest-all.cc",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/include -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1  -DGTEST_HAS_PTHREAD=1   -o googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/src/gtest_main.cc",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest/include -isystem /Users/jdmr/dev/c++/oop/ch02/ex0201/googletest/googletest -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o tests/CMakeFiles/ex0201tests.dir/ex0201tests.cpp.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/tests/ex0201tests.cpp",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/tests/ex0201tests.cpp",
+  "output": "tests/CMakeFiles/ex0201tests.dir/ex0201tests.cpp.o"
+},
+{
+  "directory": "/Users/jdmr/dev/c++/oop/ch02/ex0201/build",
+  "command": "/usr/bin/clang++ -g -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=14.1 -o app/CMakeFiles/ex0201app.dir/ex0201app.cpp.o -c /Users/jdmr/dev/c++/oop/ch02/ex0201/app/ex0201app.cpp",
+  "file": "/Users/jdmr/dev/c++/oop/ch02/ex0201/app/ex0201app.cpp",
+  "output": "app/CMakeFiles/ex0201app.dir/ex0201app.cpp.o"
+}
+]

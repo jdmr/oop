@@ -1,0 +1,15 @@
+# ninja log v5
+0	60	1704477243386995919	CMakeFiles/ex0203.dir/ex0203.cpp.o	a5f89746cbd5129e
+61	135	1704477243466785000	libex0203.a	a32cbd533217d505
+2	521	1704477243833760573	app/CMakeFiles/ex0203app.dir/ex0203app.cpp.o	7ce4ed1766f6e627
+525	595	1704477243925178863	app/ex0203app	d3e4d49a2806480d
+2	709	1704477244025090948	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	e8e296d31988b059
+2	729	1704477244051010417	tests/CMakeFiles/ex0203tests.dir/ex0203tests.cpp.o	bbf4a2b424aa04fb
+1	819	1704477244134831537	googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	45bf236ef1da427a
+1	1208	1704477244524844416	googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	d07f3f31422d555c
+1	1881	1704477245201371794	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	46b0e0197aa53f23
+1882	1955	1704477245287057000	lib/libgtest.a	cf9051e910cab906
+1955	2043	1704477245375046000	lib/libgtest_main.a	ae4de03c25a81568
+1955	2044	1704477245376332000	lib/libgmock.a	d95631b2e30411f7
+2044	2101	1704477245432726000	lib/libgmock_main.a	deaa73f077e0a13
+2043	2106	1704477245436876605	tests/ex0203tests	f57a357248fbacdc

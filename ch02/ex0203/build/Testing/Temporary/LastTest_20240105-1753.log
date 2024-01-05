@@ -1,0 +1,31 @@
+Start testing: Jan 05 11:54 CST
+----------------------------------------------------------
+1/1 Testing: ex0203tests
+1/1 Test: ex0203tests
+Command: "/Users/jdmr/dev/c++/oop/ch02/ex0203/build/tests/ex0203tests"
+Directory: /Users/jdmr/dev/c++/oop/ch02/ex0203/build/tests
+"ex0203tests" start time: Jan 05 11:54 CST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jdmr/dev/c++/oop/ch02/ex0203/googletest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from ex0203Tests
+[ RUN      ] ex0203Tests.multiplyByTwo
+[       OK ] ex0203Tests.multiplyByTwo (0 ms)
+[ RUN      ] ex0203Tests.subtractOne
+[       OK ] ex0203Tests.subtractOne (0 ms)
+[----------] 2 tests from ex0203Tests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"ex0203tests" end time: Jan 05 11:54 CST
+"ex0203tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 05 11:54 CST
