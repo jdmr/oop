@@ -17,7 +17,7 @@ istream& operator>>(istream& s, Distance& d) {
     return s;
 }
 ostream& operator<<(ostream& s, Distance& d) {
-    s << d.feet << "\'-" << d.inches << '\"';
+    s << d.feet << "\' " << d.inches << '\"';
     return s;
 }
 int main() {

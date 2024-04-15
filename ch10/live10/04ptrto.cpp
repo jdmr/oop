@@ -10,6 +10,8 @@ int main() {
     var2 = *ptr; // assign the contents of the location ptr is pointing to to var2
 
     cout << "Contents of ptr: " << *ptr << endl;
+    cout << "Value of var1: " << var1 << endl;
+    cout << "Value of var2: " << var2 << endl;
 
     return 0;
 }

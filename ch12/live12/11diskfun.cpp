@@ -23,7 +23,7 @@ int main() {
     fstream file;
     file.open("group.dat", ios::app | ios::out | ios::in | ios::binary);
     do {
-        cout << "\nEnter person's data:";
+        cout << "\nEnter person's data:\n";
         pers.getData();
         file.write(reinterpret_cast<char*>(&pers), sizeof(pers));
         cout << "Enter another person (y/n)? ";

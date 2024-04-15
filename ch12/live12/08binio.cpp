@@ -8,6 +8,7 @@ int main() {
     for (int j = 0; j < MAX; j++) {
         buff[j] = j;
     }
+
     ofstream os("edata.dat", ios::binary);
     os.write(reinterpret_cast<char*>(buff), MAX * sizeof(int));
     os.close();
@@ -15,8 +16,11 @@ int main() {
     for (int j = 0; j < MAX; j++) {
         buff[j] = 0;
     }
+
     ifstream is("edata.dat", ios::binary);
     is.read(reinterpret_cast<char*>(buff), MAX * sizeof(int));
+    is.close();
+
     for (int j = 0; j < MAX; j++) {
         if (buff[j] != j) {
             cout << "Data is incorrect\n";

@@ -21,7 +21,7 @@ class Distance {
 bool Distance::operator < (Distance d2) const {
     float bf1 = feet + inches/12;
     float bf2 = d2.feet + d2.inches/12;
-    return (bf1 < bf2) ? true : false;
+    return (bf1 < bf2);
 }
 
 int main() {

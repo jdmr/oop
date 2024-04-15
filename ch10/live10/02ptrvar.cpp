@@ -10,10 +10,10 @@ int main() {
 
     int* ptr; // define a pointer to an integer
     ptr = &var1; // assign the address of var1 to ptr
-    cout << "Value of ptr: " << ptr << endl;
+    cout << "Value of ptr: " << *ptr << endl;
 
     ptr = &var2; // assign the address of var2 to ptr
-    cout << "Value of ptr: " << ptr << endl;
+    cout << "Value of ptr: " << *ptr << endl;
 
     return 0;
 }

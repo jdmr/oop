@@ -20,10 +20,19 @@ class Stack {
 int main() {
     Stack s1;
     try {
+        cout << "adding 11" << endl;
         s1.push(11);
+        cout << "adding 22" << endl;
         s1.push(22);
+        cout << "adding 33" << endl;
         s1.push(33);
-        // s1.push(44); // oops: stack full
+        cout << "adding 44" << endl;
+        s1.push(44); // oops: stack full
+        cout << "adding 55" << endl;
+        s1.push(55); // oops: stack full
+        cout << "adding 66" << endl;
+        s1.push(66); // oops: stack full
+        cout << "done adding elements" << endl;
     } catch (Stack::Range) {
         cout << "Exception: Stack Full" << endl;
     }
@@ -32,6 +41,8 @@ int main() {
         cout << "2: " << s1.pop() << endl;
         cout << "3: " << s1.pop() << endl;
         cout << "4: " << s1.pop() << endl; // oops: stack empty
+        cout << "5: " << s1.pop() << endl; // oops: stack empty
+        cout << "6: " << s1.pop() << endl; // oops: stack empty
     } catch (Stack::Range) {
         cout << "Exception: Stack Empty" << endl;
     }

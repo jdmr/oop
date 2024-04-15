@@ -11,7 +11,7 @@ class Counter {
 };
 
 int main() {
-    Counter c1, c2;
+    Counter c1, c2, c3;
     cout << "\nc1=" << c1.get_count();
     cout << "\nc2=" << c2.get_count();
     ++c1;

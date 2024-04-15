@@ -6,7 +6,7 @@ int main() {
     const int MAX = 80;
     char buffer[MAX];
     ifstream infile("test.txt");
-    while(!infile.eof()) {
+    while(infile) {
         infile.getline(buffer, MAX);
         cout << buffer << endl;
     }

@@ -19,7 +19,7 @@ void Distance::getdist() {
     string instr;
     while (true) {
         cout << "\n\nEnter feet: ";
-        cin.unsetf(ios::skipws);
+        // cin.unsetf(ios::skipws);
         cin >> instr;
         if (isFeet(instr)) {
             cin.ignore(10, '\n');

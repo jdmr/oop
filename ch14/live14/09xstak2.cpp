@@ -25,7 +25,7 @@ int main() {
         s1.push(11);
         s1.push(22);
         s1.push(33);
-        s1.push(44); // oops: stack full
+        // s1.push(44); // oops: stack full
         cout << "1: " << s1.pop() << endl;
         cout << "2: " << s1.pop() << endl;
         cout << "3: " << s1.pop() << endl;
